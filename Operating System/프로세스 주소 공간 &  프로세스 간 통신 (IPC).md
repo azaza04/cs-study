@@ -6,7 +6,7 @@
 - 각각 프로그램 소스 코드 저장, 전역 변수 저장, 함수,지역 변수 저장의 역할을 함
 - 이런식으로 최대한 데이터를 공유하여 메모리 사용량을 줄일 수 있음
   
-![img](images_gang_shik_post_788ef0a0-24db-40b4-9181-471dc6062a1c_image.png)
+![images_gang_shik_post_788ef0a0-24db-40b4-9181-471dc6062a1c_image](https://github.com/user-attachments/assets/855d413c-3327-4dca-9ea1-ad65dd4d514c)
 
 ### 코드 (텍스트) 영역
 
