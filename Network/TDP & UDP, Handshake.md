@@ -26,9 +26,13 @@
 ---
 (1). 가상 회선 방식을 제공한다는 것은 발신지와 수신지를 연결하여 패킷을 전송하기 위한 논리적 경로를 배정한다는 말이다. 3-way handshaking 과정은 발신지와 수신지 사이에 논리적인 접속(세션)을 성립하는 과정을 의미한다. TCP가 위와 같은 특징을 지니는 이유는 간단하다. TCP는 연결형 서비스로, 신뢰성을 보장하기 때문이다.
 그래서 3-way handshaking의 과정도 사용하는 것이고, 
+
 (2). 데이터의 흐름 제어나 
+
 (3). 혼잡 제어와 같은 기능도 하는 것이다.
+
 (4). 하지만 이러한 기능 때문에 UDP보다 속도가 느리게 된다.
+
 그렇기에 TCP는 연속성보다 신뢰성 있는 전송이 중요할 때 사용하는 프로토콜로 예를 들면, 파일 전송과 같은 경우에 사용된다.
 
 ---
@@ -48,6 +52,11 @@ TCP의 3-way handshaking과 같은 과정 X
 흐름 제어(flow control)가 없어서 제대로 전송되었는지, 오류가 없는지 확인할 수 없다.
 4. TCP보다 속도가 빠르다.
 5. 1:1 & 1:N & N:N 통신이 가능하다.
+  
+<img width="567" alt="스크린샷 2024-09-02 오전 3 50 42" src="https://github.com/user-attachments/assets/028026b6-7753-477a-b4d1-39b74f4493ba">
+
+
+   
 
 ## TCP 연결(3-way) & 해제(4-way) handshake
 
@@ -59,7 +68,8 @@ SYN(synchronize sequence numbers) - 연결 확인을 보내는 무작위의 숫�
 2. 서버는 SYN-RECEIVED 상태로 바꾸고 SYN과 응답 ACK(어 잘 들려! 내 말은 들려?)를 보낸다.
 3. SYN과 응답 ACK를 받은 클라이언트는 ESTABLISHED 상태로 변경하고 서버에게 응답 ACK(잘 들려!)를 보낸다.
 4. 응답 ACK를 받은 서버는 ESTABLISHED 상태로 변경한다.
-출처: https://dev-coco.tistory.com/144 [슬기로운 개발생활:티스토리]
+
+![img](https://github.com/user-attachments/assets/b3140a46-42c4-4932-8072-3824f20b0140)
 
 ### TCP 해제 4way
 
@@ -69,6 +79,10 @@ SYN(synchronize sequence numbers) - 연결 확인을 보내는 무작위의 숫�
 4. close 요청을 받은 서버 애플리케이션은 종료 프로세스를 진행하고 FIN(나도 끊을게!)을 클라이언트로 보내 LAST_ACK 상태로 바꾼다.
 5. FIN을 받은 클라이언트는 ACK(알겠어!)를 서버에 다시 전송하고 TIME-WAIT으로 상태를 바꾼다.
 TIME-WAIT에서 일정 시간이 지나면 CLOSE 된다. ACK를 받은 서버도 포트를 CLOSED로 닫는다.
+
+![img](https://github.com/user-attachments/assets/f07c0709-9df7-4ac6-931f-01e0b471fd62)
+
+출처: https://dev-coco.tistory.com/144 [슬기로운 개발생활:티스토리]
 
 ## 질문
 
