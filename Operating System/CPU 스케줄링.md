@@ -47,6 +47,8 @@
 
 스케줄링 알고리즘이 얼마나 효과적인지 평가하기 위한 몇 가지 지표
 
+- **Waiting Time**
+    - 프로세스가 준비 큐(Ready Queue)에서 대기한 시간의 총합
 - **Turnaround Time**
     - 프로세스가 생성된 후부터 완료될 때까지의 전체 시간
     - 프로세스가 얼마나 빨리 완료되는지를 나타내며, Turnaround Time이 짧을수록 시스템의 처리 효율이 높아짐
@@ -118,8 +120,6 @@
         - 계속해서 I/O 요청을 하며 CPU를 양보한다면 우선순위를 높게 유지 + 주어진 time slice를 모두 사용하면 우선순위를 낮춤
     - 상위 큐에서는 짧은 Time Slice를, 하위 큐에서는 긴 Time Slice를 할당하여, 다양한 작업 유형에 유연하게 대응할 수 있음
     - **생길 수 있는 문제점**
-        - Starvation
-            - I/O bound job이 많으면 우선순위에 밀려 CPU bound job이 실생 순서를 받지 못하는 문제 발생
         - Changing behavior
             - job이 시간이 흐름에 따라 I/O bound <-> CPU bound 로 변할 수 있음
 
