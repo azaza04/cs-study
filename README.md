@@ -44,8 +44,6 @@
   - [파티셔팅, 샤딩, 레플리케이션, 클러스터링](/Database/%ED%8C%8C%ED%8B%B0%EC%85%94%EB%8B%9D%2C%EC%83%A4%EB%94%A9%2C%EB%A0%88%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%2C%ED%81%B4%EB%9F%AC%EC%8A%A4%ED%84%B0%EB%A7%81.md)
 
 - **디자인패턴 (Design Pattern)**
-  - 
-
 - **자료구조&알고리즘 (Data Structure)**
 - **자바&스프링&코틀린 (Java & Spring & Kotlin)**
 
