@@ -44,7 +44,23 @@
   - [파티셔팅, 샤딩, 레플리케이션, 클러스터링](/Database/%ED%8C%8C%ED%8B%B0%EC%85%94%EB%8B%9D%2C%EC%83%A4%EB%94%A9%2C%EB%A0%88%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%2C%ED%81%B4%EB%9F%AC%EC%8A%A4%ED%84%B0%EB%A7%81.md)
 
 - **디자인패턴 (Design Pattern)**
-- **자료구조&알고리즘 (Data Structure)**
+  - [브릿지 패턴](https://github.com/azaza04/cs-study/blob/main/Design%20Pattern/%EB%B8%8C%EB%A6%BF%EC%A7%80%20%ED%8C%A8%ED%84%B4.md)
+  - [옵저버 패턴](https://github.com/azaza04/cs-study/blob/main/Design%20Pattern/%EC%98%B5%EC%A0%80%EB%B2%84%20%ED%8C%A8%ED%84%B4.md)
+  - [프록시 패턴](https://github.com/azaza04/cs-study/blob/main/Design%20Pattern/%ED%94%84%EB%A1%9D%EC%8B%9C%20%ED%8C%A8%ED%84%B4.md)
+  - [싱글톤 패턴](https://github.com/azaza04/cs-study/blob/main/Design%20Pattern/%EC%83%9D%EC%84%B1%ED%8C%A8%ED%84%B4_%EC%8B%B1%EA%B8%80%ED%86%A4%ED%8C%A8%ED%84%B4.md)
+  - [프로토타입 패턴](https://github.com/azaza04/cs-study/blob/main/Design%20Pattern/%EC%83%9D%EC%84%B1%ED%8C%A8%ED%84%B4_%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85%ED%8C%A8%ED%84%B4.md)
+  - [전략 패턴](https://github.com/azaza04/cs-study/blob/main/Design%20Pattern/%ED%96%89%EB%8F%99%ED%8C%A8%ED%84%B4_%EC%A0%84%EB%9E%B5%ED%8C%A8%ED%84%B4.md)
+  - [템플릿 메서드 패턴](https://github.com/azaza04/cs-study/blob/main/Design%20Pattern/%ED%96%89%EB%8F%99%ED%8C%A8%ED%84%B4_%ED%85%9C%ED%94%8C%EB%A6%BF%EB%A9%94%EC%84%9C%EB%93%9C%ED%8C%A8%ED%84%B4.md)
+
+- **자료구조 (Data Structure)**
+  - [Heap](/Data%20Structure/Heap.md)
+  - [Graph](/Data%20Structure/Graph.md)
+  - [Tree](/Data%20Structure/%ED%8A%B8%EB%A6%AC.md)
+
+- **알고리즘 (Algorithm)**
+
 - **자바&스프링&코틀린 (Java & Spring & Kotlin)**
+  - [GC(Garbage Collector)](/Java/GC(Garbage%20Collector).md)
+  - [JVM, 메모리 구조, 클래스 로딩](/Java/JVM%2C%20%EB%A9%94%EB%AA%A8%EB%A6%AC%20%EA%B5%AC%EC%A1%B0%2C%20%ED%81%B4%EB%9E%98%EC%8A%A4%20%EB%A1%9C%EB%94%A9.md)
 
 
